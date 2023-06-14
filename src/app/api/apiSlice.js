@@ -2,7 +2,7 @@ import {createApi,fetchBaseQuery} from '@reduxjs/toolkit/query/react'
 import { setCredentials } from '../../features/auth/authSlice'
 
 const baseQuery = fetchBaseQuery({
-    baseUrl: 'https://mern-back-end.onrender.com',
+    baseUrl: 'https://mern-back-end-6r0h.onrender.com',
     // baseUrl: 'http://localhost:3500',
     credentials: 'include',
     prepareHeaders:(headers,{getState}) => {
